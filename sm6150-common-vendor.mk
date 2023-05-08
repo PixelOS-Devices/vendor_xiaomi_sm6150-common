@@ -391,6 +391,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.fm@1.0_system_ext \
     vendor.qti.imsrtpservice@3.0_system_ext \
+    vendor.qti.imsrtpservice@3.1_system_ext \
     CACertService \
     CneApp \
     IWlanService \
