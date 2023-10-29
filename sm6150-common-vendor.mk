@@ -167,6 +167,7 @@ PRODUCT_PACKAGES += \
     libvppclient \
     libasphere \
     libhwdap \
+    libmisoundfx \
     libshoebox \
     libswgamedap \
     libswvqe \
