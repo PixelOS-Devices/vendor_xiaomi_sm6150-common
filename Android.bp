@@ -5393,7 +5393,12 @@ cc_prebuilt_binary {
 cc_prebuilt_binary {
 	name: "vendor.dolby.hardware.dms@2.0-service",
 	owner: "xiaomi",
-	srcs: ["proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service"],
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service"],
+		},
+	},
+	compile_multilib: "64",
 	check_elf_files: false,
 	strip: {
 		none: true,
